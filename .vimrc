@@ -40,14 +40,14 @@ autocmd BufWinEnter * silent! :%foldopen!
 "set smarttab
 set hlsearch
 syntax on
-
+ 
 "MAPPINGS
 map <C-n> :NERDTreeToggle<CR>
 
 "Tabs
 nnoremap tn :tabnew<Space>
 nnoremap tc :tabclose<CR>
-nnoremap tk :tabnext<CR>
+nnoremap tk :tabnext<CR> 
 nnoremap tj :tabprev<CR>
 nnoremap th :tabfirst<CR>
 nnoremap tl :tablast<CR>
